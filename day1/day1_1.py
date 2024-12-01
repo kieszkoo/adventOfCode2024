@@ -1,7 +1,7 @@
 list_1 = []
 list_2 = []
 difference = 0
-with open("day1.txt","r") as file:
+with open("day1.txt", "r") as file:
     for line in file:
         row = line.strip().split("   ")
         list_1.append(int(row[0]))
