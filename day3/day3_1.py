@@ -14,8 +14,6 @@ with open("day3.txt", "r") as file:
 
 for i in functions:
     for function in i:
-        print(function)
-        print(eval(function))
         sum += eval(function)
 
 print(sum)
